@@ -1,10 +1,19 @@
-# webcup
-webcup 2019 git
-<<<<<<< HEAD
-testing  
+# [Developers Conference 2019](https://conference.mscc.mu/)
 
-hello
-=======
-testing 
-waa
->>>>>>> 9a2cba87c1efff0ce8bc39281eb8f38162a7707f
+Website of Developers Conference 2019 in Mauritius  
+https://conference.mscc.mu/  
+
+# How to run in development
+
+### Requirements
+
+1. node/npm
+2. Vue Cli 3 `$ npm install -g @vue/cli`
+
+### Usage
+
+```
+$ cd /web/app
+$ npm install
+$ npm run serve // devmode with livereload
+```
