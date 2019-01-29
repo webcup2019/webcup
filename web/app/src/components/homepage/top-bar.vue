@@ -2,9 +2,6 @@
   <div class="home-component top-bar-wrapper">
     <div class="container" v-view="viewHandler">
       <div class="top-bar-container">
-        <div class="rendez-vous-wrapper">
-          11<sup>th</sup> - 13<sup>th</sup> April at Voila Bagatelle
-        </div>
         <div class="construction-wrapper">⚠️ Website under construction.
           Showing last year's data temporarily</div>
         <div class="links-wrapper">
@@ -63,7 +60,7 @@ export default {
   width: 100%;
   .construction-wrapper {
     flex-grow: 1;
-    // text-align: center;
+    text-align: center;
     color: yellow;
     font-size: 9px;
     font-weight: bold;
