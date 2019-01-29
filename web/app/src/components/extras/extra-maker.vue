@@ -1,13 +1,7 @@
 <template>
   <div class="full-section-container">
     <div class="container">
-      <div class="section-title-wrapper">
-        <small>
-          IoT, Robotics, DIY, SBC, Hacking, Tinkering, Inventing,
-          Recycling...</small
-        >
-        <h2>Mauritius Maker Community</h2>
-      </div>
+      S
       <div class="content-wrapper">
         <p>
           The Mauritius Makers community is a group of enthusiasts and
@@ -16,7 +10,7 @@
           innovation such as Electronics, Open Source Hardware, Internet Of
           Things, Robotics, 3D Printing, Embedded Software, Hardware, Arduino,
           Small Board Computers, SBC like the Raspbery PI, Printed Circuit Board
-          design, DIY, Wood Work, Metal Work, Computer Aided Designing,
+        design, DIY, Wood Work, Metal Work, Computer Aided Designing,
           Wearables(can be extended to Cosplayers).
         </p>
 
