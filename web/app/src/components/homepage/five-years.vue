@@ -1,118 +1,135 @@
 <template>
-  <div class="home-component five-years-wrapper">
-    <!-- <div class="five-years-container">
-      <div class="fiveyr">
-        <img src="../../assets/5-years-devcon.png" alt>
-      </div> -->
+  <div class="home-component dept-list">
+      <div class="dept-list-top dept-wrapper">
+        <div class="dept-sec-a">
+          <h2>Section A</h2>
+        </div> 
+        <div class="dept-list-a">
+          <div class="dept-item">
+            <!-- met image hover -->
 
-      <!-- <div class="tribute-text">
-        <p>2019 marks the 5th edition of the Developers Conference.<br/>
-          Since 2015 we are in compliance with our goals. The conference is a free of charge, community-driven,
-          three-days IT tech event in Mauritius. It’s an event full of business opportunities for supporters 
-          and professional networking among peers. Attendees can learn about latest software development 
-          technologies, methodologies, cloud services and infrastructure.</p>
-      </div>  -->
+            
+            <!-- met image hover ici -->
+          </div>
+          <div class="dept-item">
+            <!-- met image hover -->
 
-      <div class="faculty-preview">
-        <div class="fac-name">
-          <div class="fac-logo">
-            <img src="" alt="">
+            
+            <!-- met image hover ici -->
           </div>
-          <div class="fac-desc">
-            <a href="#" class="btn-info">Pese Mwa</a>
+          <div class="dept-item">
+            <!-- met image hover -->
+
+            
+            <!-- met image hover ici -->
           </div>
-        </div>
-        <div class="fac-name">
-          <div class="fac-logo">
-            <img src="" alt="">
-          </div>
-          <div class="fac-desc">
-            <a href="#" class="btn-info">Pese Mwa</a>
-          </div>
-        </div>
-        <div class="fac-name">
-          <div class="fac-logo">
-            <img src="" alt="">
-          </div>
-          <div class="fac-desc">
-            <a href="#" class="btn-info">Pese Mwa</a>
-          </div>
-        </div>
-        <div class="fac-name agri">
-          <div class="fac-logo">
-            <img src="" alt="">
-          </div>
-          <div class="fac-desc">
-            <a href="#" class="btn-info">Pese Mwa</a>
-          </div>
-        </div>
-        <div class="fac-name">
-          <div class="fac-logo">
-            <img src="" alt="">
-          </div>
-          <div class="fac-desc">
-            <a href="#" class="btn-info">Pese Mwa</a>
-          </div>
-        </div>
-        <div class="fac-name">
-          <div class="fac-logo">
-            <img src="" alt="">
-          </div>
-          <div class="fac-desc">
-            <a href="#" class="btn-info">Pese Mwa</a>
-          </div>
-        </div>
-        <div class="fac-name">
-          <div class="fac-logo">
-            <img src="" alt="">
-          </div>
-          <div class="fac-desc">
-            <a href="#" class="btn-info">Pese Mwa</a>
+          <div class="dept-item">
+            <!-- met image hover -->
+
+            
+            <!-- met image hover ici -->
           </div>
         </div>
       </div>
-    </div>
-  <!-- </div> -->
+      <div class="dept-list-bot dept-wrapper">
+        <div class="dept-sec-b">
+          <h2>Section B</h2>
+        </div> 
+        <div class="dept-list-b">
+          <div class="dept-item">
+            <!-- met image hover -->
+
+            
+            <!-- met image hover ici -->
+          </div>
+          <div class="dept-item">
+            <!-- met image hover -->
+
+            
+            <!-- met image hover ici -->
+          </div>
+          <div class="dept-item">
+            <!-- met image hover -->
+
+            
+            <!-- met image hover ici -->
+          </div>
+          <div class="dept-item">
+            <!-- met image hover -->
+
+            
+            <!-- met image hover ici -->
+          </div>
+        </div>
+      </div>
+  </div>
 </template>
 
-<style lang="scss" scoped>
-.faculty-preview {
+<style lang="scss" scoped> 
+.dept-list {
   width: 100%;
-  display: grid;
-  grid-template-areas: 
-  "a b c"
-  "d d d"
-  "e f g";
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr; 
+  background-color: red;  
 
-  .fac-name {
+  .dept-wrapper {
+    display: grid;
     width: 100%;
-    background-color: red;
-    height: 400px; 
-    display: flex;
-    flex-direction: column;
+    grid-gap: 40px;
+    padding: 60px 0;
+  }
+  .dept-list-top {
+    background-color: white;
+    grid-template-areas: "desc liste";
+    grid-template-columns: 0.5fr 0.7fr; 
+    grid-template-rows: 1fr;
 
-    .fac-logo {
-      width: 100%;
-      background-color: blueviolet;
-      img {
-
-      }
+    .dept-sec-a {
+      grid-area: desc;
+      margin: auto;
+      h2 { color: black;}
     }
-
-    .fac-desc {
-        width: 100%;
-        // height: ;
-      .btn-info {
-        text-align: center;
-        // margin: auto 0;
+    .dept-list-a {
+      grid-area: liste;
+      display: grid;
+      grid-template-areas: "a b c d";
+      grid-template-rows: 1fr;
+      // grid-gap: 20px;
+      
+      .dept-item {
+        width: 170px;
+        height: 200px;
+        background-color: red;
+        
+        
       }
-    }
+    } 
   } 
-  .agri {
-    grid-area: d;
+  .dept-list-bot {
+    background-color: black;
+    grid-template-areas: "liste desc";
+    grid-template-columns: 0.7fr 0.5fr; 
+
+    .dept-sec-b {
+      grid-area: desc; 
+      margin: auto;
+      
+    }
+    .dept-list-b {
+      grid-area: liste;
+      display: grid;
+      grid-template-areas: "a b c d";
+      grid-template-rows: 1fr;
+      grid-gap: 20px; 
+
+    .dept-item {
+        // width: 100%;
+        background-color: red;
+        width: 170px;
+        height: 200px;
+        
+        
+      }
+
+    }
   }
 }
 </style>
