@@ -2,18 +2,18 @@
   <div class="main-menu-wrapper">
     <ul>
       <li>
-        <router-link :to="{ name: 'sessions' }">Sessions</router-link>
+        <router-link :to="{ name: 'jobs' }">vey profile</router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'extras' }">Extras</router-link>
+        <router-link :to="{ name: 'extras' }">ki nouvo</router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'lifeatdevcon' }">Life at devcon</router-link>
+        <router-link :to="{ name: 'sessions' }">Inter-Uni</router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'pastevents' }">Past Events</router-link>
+        <router-link :to="{ name: 'pastevents' }">Lor Nu</router-link>
       </li>
-      <li><a href="#">MCB Inovapp</a></li>
+      <li><a href="#">Travail</a></li>
     </ul>
   </div>
 </template>

@@ -128,6 +128,7 @@
 <style lang="scss" scoped>
 .devcon-stats-wrapper {
   padding: 100px 0;
+  margin-top: 40px;
 }
 .university-listing {
   display: grid;

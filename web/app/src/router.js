@@ -29,7 +29,7 @@ export default new Router({
       component: () => import("./views/PageExtras.vue")
     },
     {
-      path: "/jobs",
+      path: "/profile Listing",
       name: "jobs",
       component: () => import("./views/PageJobs.vue")
     },
@@ -39,7 +39,7 @@ export default new Router({
       component: () => import("./views/PageLifeAtDevcon.vue")
     },
     {
-      path: "/past-events",
+      path: "/LorNu",
       name: "pastevents",
       component: () => import("./views/PagePastEvents.vue")
     },
