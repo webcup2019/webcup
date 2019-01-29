@@ -1,5 +1,8 @@
 <template>
-  <div class="home-component dept-list">
+  <div class="home-component dept-list"> 
+
+      <h2 class="mega-rainbow">Department</h2>
+    
       <div class="dept-list-top dept-wrapper">
         <div class="dept-sec-a">
           <h2>Section A</h2>
@@ -68,13 +71,14 @@
 <style lang="scss" scoped> 
 .dept-list {
   width: 100%;
-  background-color: red;  
+  // background-color: red;  
+  height: 100vh;
 
   .dept-wrapper {
     display: grid;
     width: 100%;
     grid-gap: 40px;
-    padding: 60px 0;
+    padding: 75px 0;
   }
   .dept-list-top {
     background-color: white;
