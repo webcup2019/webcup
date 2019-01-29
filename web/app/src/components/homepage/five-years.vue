@@ -1,6 +1,5 @@
 <template>
-  <div class="home-component dept-list"> 
-
+  <div class="home-component dept-list">  
       <h2 class="mega-rainbow">Department</h2>
     
       <div class="dept-list-top dept-wrapper">
@@ -68,7 +67,13 @@
   </div>
 </template>
 
-<style lang="scss" scoped> 
+<script>
+
+</script>
+
+
+<style lang="scss" scoped>  
+
 .dept-list {
   width: 100%;
   // background-color: red;  
