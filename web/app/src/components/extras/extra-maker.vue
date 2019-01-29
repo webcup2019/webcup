@@ -1,5 +1,7 @@
 <template>
   <div class="student-card component">
+
+    
     <div class="card">
       <div class="card-header" style="background-image: url(https://res.cloudinary.com/dj14cmwoz/image/upload/v1491077482/profile-card/images/profile-picture.png)">
         <div class="card-header-bar">

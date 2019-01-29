@@ -9,7 +9,7 @@
           <div class="frame">
             <div>
               <div class="headline">
-                <div>your daily progress</div>
+                <div>Testing</div>
               </div>
               <div class="circle-big">
                 <div class="text">
@@ -47,16 +47,7 @@
           <span class="mega-rainbow">Best</span> conference in the water.
         </div>
       </slide>
-      <slide class="slide">
-        <div class="slide-item slide-quote">
-          The
-          <span class="mega-rainbow">most woke</span> conference on ice.
-        </div>
-        <div class="slide-item slide-button button">
-          <button-waw :theme="'#97d0e1'" :size="'70px'" :link="'#'">Register
-            now</button-waw>
-        </div>
-      </slide>
+     
       <slide class="slide">
         <div class="slide-item slide-quote">
           Innovative
@@ -145,8 +136,8 @@
   border-radius: 3px;
   box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.6);
   overflow: hidden;
-  background: #413951;
-  background: linear-gradient(145deg, #413951 0%, #201c29 100%);
+  // background: #413951;
+  // background: linear-gradient(145deg, #413951 0%, #201c29 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#413951', endColorstr='#201c29',GradientType=0 );
   color: #fff;
   font-family: 'montserrat', Helvetica, sans-serif;
