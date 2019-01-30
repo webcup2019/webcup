@@ -19,6 +19,11 @@ export default new Router({
       component: () => import("./views/PageCoC.vue")
     },
     {
+      path: "/about",
+      name: "about",
+      component: () => import("./views/About.vue")
+    },
+    {
       path: "/contact",
       name: "contact",
       component: () => import("./views/PageContact.vue")

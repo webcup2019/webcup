@@ -17,11 +17,11 @@ app.use(cors());
 var port = process.env.PORT || 4000;
 
 app.get('/', async function(req, res) {
-	result = await run();
+	result = await run("SELECT * FROM student");
 	res.send(result);
 })
 
-app.post('/post', async function(req, res) {
+app.post('/posttest', async function(req, res) {
 	console.log(req.body);
 })
 
@@ -35,7 +35,7 @@ process.env.ORA_SDTZ = 'UTC';
 var oracledb = require('oracledb');
 // var dbConfig = require('./dbconfig.js');
 
-async function run() {
+async function run(sqlstr) {
 	let connection;
 
 	try {
@@ -70,7 +70,6 @@ async function run() {
 
 		// Query the data
 
-		sql = `SELECT * FROM student`;
 
 		binds = {};
 
@@ -81,7 +80,7 @@ async function run() {
 			// fetchArraySize: 100       // internal buffer allocation size for tuning
 		};
 
-		result = await connection.execute(sql, binds, options);
+		result = await connection.execute(sqlstr, binds, options);
 
 		// console.log("Column metadata: ", result.metaData);
 		// console.log("Query results: ");
@@ -101,4 +100,3 @@ async function run() {
 		}
 	}
 }
-// run();
