@@ -12,11 +12,10 @@
           <!-- met image hover -->
 
           <router-link class="example" :to="{ name: 'sponsors' }">
-            <figure class="imghvr-shutter-in-out-diag-2"><img src="https://pixabay.com/static/uploads/photo/2016/02/28/12/53/child-1226954_960_720.jpg"
+            <figure class="imghvr-shutter-in-out-diag-2"><img src="../../assets/WEBCUP/DEPARTMENTS/IT1.jpg"
                 alt="example-image">
               <figcaption>
-                <h3>Hello there !</h3>
-                <p>Keep on Hacking, Cheers.</p>
+                <h3>IT</h3>
               </figcaption>
             </figure>
           </router-link>
@@ -27,11 +26,10 @@
           <!-- met image hover -->
 
           <div class="example">
-            <figure class="imghvr-shutter-in-out-diag-2"><img src="https://pixabay.com/static/uploads/photo/2016/02/28/12/53/child-1226954_960_720.jpg"
+            <figure class="imghvr-shutter-in-out-diag-2"><img src="../../assets/WEBCUP/DEPARTMENTS/ENGINEERING3.jpg"
                 alt="example-image">
               <figcaption>
-                <h3>Hello there !</h3>
-                <p>Keep on Hacking, Cheers.</p>
+                <h3>ENGINEERING</h3>
               </figcaption>
             </figure>
           </div>
@@ -41,11 +39,10 @@
         <div class="dept-item">
           <!-- met image hover -->
           <div class="example">
-            <figure class="imghvr-shutter-in-out-diag-2"><img src="https://pixabay.com/static/uploads/photo/2016/02/28/12/53/child-1226954_960_720.jpg"
+            <figure class="imghvr-shutter-in-out-diag-2"><img src="../../assets/WEBCUP/DEPARTMENTS/AGRICULTURE1.jpg"
                 alt="example-image">
               <figcaption>
-                <h3>Hello there !</h3>
-                <p>Keep on Hacking, Cheers.</p>
+                <h3>AGRICULTURE</h3>
               </figcaption>
             </figure>
           </div>
@@ -55,11 +52,10 @@
           <!-- met image hover -->
 
           <div class="example">
-            <figure class="imghvr-shutter-in-out-diag-2"><img src="https://pixabay.com/static/uploads/photo/2016/02/28/12/53/child-1226954_960_720.jpg"
+            <figure class="imghvr-shutter-in-out-diag-2"><img src="../../assets/WEBCUP/DEPARTMENTS/SCIENCE1.jpg"
                 alt="example-image">
               <figcaption>
-                <h3>Hello there !</h3>
-                <p>Keep on Hacking, Cheers.</p>
+                <h3>SCIENCE</h3>
               </figcaption>
             </figure>
           </div>
@@ -76,11 +72,10 @@
         <div class="dept-item">
           <!-- met image hover -->
           <div class="example">
-            <figure class="imghvr-shutter-in-out-diag-2"><img src="https://pixabay.com/static/uploads/photo/2016/02/28/12/53/child-1226954_960_720.jpg"
+            <figure class="imghvr-shutter-in-out-diag-2"><img src="../../assets/WEBCUP/DEPARTMENTS/MANAGEMENT1.jpg"
                 alt="example-image">
               <figcaption>
-                <h3>Hello there !</h3>
-                <p>Keep on Hacking, Cheers.</p>
+                <h3>MANAGEMENT</h3>
               </figcaption>
             </figure>
           </div>
@@ -91,11 +86,10 @@
         <div class="dept-item">
           <!-- met image hover -->
           <div class="example">
-            <figure class="imghvr-shutter-in-out-diag-2"><img src="https://pixabay.com/static/uploads/photo/2016/02/28/12/53/child-1226954_960_720.jpg"
+            <figure class="imghvr-shutter-in-out-diag-2"><img src="../../assets/WEBCUP/DEPARTMENTS/HUMANITIES2.jpg"
                 alt="example-image">
               <figcaption>
-                <h3>Hello there !</h3>
-                <p>Keep on Hacking, Cheers.</p>
+                <h3>HUMANITIES AND SOCIAL STUDIES</h3>
               </figcaption>
             </figure>
           </div>
@@ -107,11 +101,10 @@
           <!-- met image hover -->
 
           <div class="example">
-            <figure class="imghvr-shutter-in-out-diag-2"><img src="https://pixabay.com/static/uploads/photo/2016/02/28/12/53/child-1226954_960_720.jpg"
+            <figure class="imghvr-shutter-in-out-diag-2"><img src="../../assets/WEBCUP/DEPARTMENTS/FINANCE3.jpg"
                 alt="example-image">
               <figcaption>
-                <h3>Hello there !</h3>
-                <p>Keep on Hacking, Cheers.</p>
+                <h3>FINANCE</h3>
               </figcaption>
             </figure>
           </div>
@@ -121,11 +114,10 @@
         <div class="dept-item">
           <!-- met image hover -->
           <div class="example">
-            <figure class="imghvr-shutter-in-out-diag-2"><img src="https://pixabay.com/static/uploads/photo/2016/02/28/12/53/child-1226954_960_720.jpg"
+            <figure class="imghvr-shutter-in-out-diag-2"><img src="../../assets/WEBCUP/DEPARTMENTS/OCEAN1.jpg"
                 alt="example-image">
               <figcaption>
-                <h3>Hello there !</h3>
-                <p>Keep on Hacking, Cheers.</p>
+                <h3>OCEAN</h3>
               </figcaption>
             </figure>
           </div>
@@ -611,13 +603,15 @@
   .dept-list {
     width: 100%;
     // background-color: red;  
-    height: 105vh;
+    // height: 105vh;
+    margin-top: 20px;
 
     .dept-wrapper {
       display: grid;
       width: 100%;
       grid-gap: 40px;
       padding: 75px 0;
+      margin-top: 30px;
     }
 
     .dept-list-top {

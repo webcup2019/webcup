@@ -43,21 +43,21 @@
       </slide>
       <slide class="slide">
         <div class="slide-item slide-quote">
-          The
-          <span class="mega-rainbow">Best</span> conference in the water.
+          Nou
+          <span class="mega-rainbow">Concept</span> nouvo dans moris
         </div>
       </slide>
      
       <slide class="slide">
         <div class="slide-item slide-quote">
-          Innovative
-          <span class="mega-rainbow">Diverse</span> and
-          <span class="mega-rainbow">Inclusive</span> are just the beginnings.
+          Pou
+          <span class="mega-rainbow">ConnecT</span> et
+          <span class="mega-rainbow">kas Barrier</span> entre universite
         </div>
-        <div class="slide-item slide-button button">
+        <!-- <div class="slide-item slide-button button">
           <button-waw :theme="'#97d0e1'" :size="'70px'" :link="'#'">Register
             now</button-waw>
-        </div>
+        </div> -->
       </slide>
     </carousel>
   </div>

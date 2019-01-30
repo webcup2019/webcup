@@ -11,9 +11,9 @@
         <router-link :to="{ name: 'sessions' }">Inter-Uni</router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'pastevents' }">Lor Nu</router-link>
+        <router-link :to="{ name: 'pastevents' }">Travail</router-link>
       </li>
-      <li><a href="#">Travail</a></li>
+      <li><a href="#">info</a></li>
     </ul>
   </div>
 </template>

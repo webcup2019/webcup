@@ -39,7 +39,7 @@ export default new Router({
       component: () => import("./views/PageLifeAtDevcon.vue")
     },
     {
-      path: "/LorNu",
+      path: "/travail",
       name: "pastevents",
       component: () => import("./views/PagePastEvents.vue")
     },

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="mega-rainbow">Past Events</h1>  
+    <h1 class="mega-rainbow">Opportunite Travail</h1>  
 
     <div class="timeline-container" id="timeline-1">
       
@@ -8,7 +8,7 @@
 
         <div class="timeline-item" data-text="FATHER OF THE TURKS" v-for="(event, index) in past_events" :key="index">
           <div class="timeline__content">
-          <!-- <h2>{{ event.title }}</h2> -->
+          <h2>{{ event.title }}</h2>
             <img class="timeline__img" src="https://2018.mscc.mu/images/past-events/gwab2015.jpeg" />
             <h2 class="timeline__content-title">{{ event.year }}</h2>
             <p class="timeline__content-desc">{{ event.description }}</p>
@@ -27,77 +27,58 @@ export default {
     return {
       past_events: [
         {
-          title: "global hello azure bootcamps",
-          year: "2018",
-          date: "25 April 2018",
+          title: "ingenieur dans Front-end",
+          year: "XYZ Companie",
+          date: "25 April 2019",
           image: "",
           logo: "",
-          link: "http://gwabmauritius.azurewebsites.net/",
+          link: "",
           description:
-            "In April of 2013 we held the first Global Windows Azure Bootcamp at more than 90 locations around the globe! In March 2014 we topped that with 136 locations! This year we are again doing a one day deep dive class to help thousands of people get up to speed on developing Cloud Computing Applications for Azure. In addition to this great learning opportunity we will have another set of hands on labs."
+            "Qualification dans developement website et bon maitrise dans language vue.js et javascript. avoy to cv lor nu page www.example.com ou passe dans nu bureau"
         },
         {
-          title: "Developers Conference 2015",
-          year: "2017",
-          date: "23 - 25 April 2015",
+          title: "Department Finance",
+          year: "X Ltd",
+          date: "23 - 25 April 2019",
           image: "",
           logo: "",
-          link: "https://2017.mscc.mu/#/",
+          link: "",
+            description:
+            "Qualification dans developement website et bon maitrise dans language vue.js et javascript. avoy to cv lor nu page www.example.com ou passe dans nu bureau"
+       
+          },
+        {
+          title: "Trainin dans ERP",
+          year: "Erp Tm",
+          date: "23 - 25 April 2019",
+          image: "",
+          logo: "",
+          link: "",
           description:
-            'The Developers Conference 2015 is the first event in Mauritius, maybe even in the Indian Ocean which is organised as a "classic" conference. Yes, there have been various vendor-specific bootcamps in the past but never anything like this.'
+            "Qualification dans developement website et bon maitrise dans language vue.js et javascript. avoy to cv lor nu page www.example.com ou passe dans nu bureau"
         },
         {
-          title: "global azure bootcamps",
-          year: "2016",
-          date: "23 - 25 April 2015",
+          title: "Train Oracle",
+          year: "Oracle",
+          date: "23 - 25 April 2019",
           image: "",
           logo: "",
           link:
-            "https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/events/226532196/",
-          description:
-            "Microsoft Azure provides key benefits for your business. Similar to previous years the MSCC would like to invite you to a full-day event of information on cloud technology provided by Microsoft."
+            "",
+            description:
+            "Qualification dans developement website et bon maitrise dans language vue.js et javascript. avoy to cv lor nu page www.example.com ou passe dans nu bureau"
         },
         {
-          title: "Developers Conference 2016",
-          year: "2016",
-          date: "23 - 25 April 2015",
+          title: "IT support",
+          year: "IT Solve",
+          date: "23 - 25 April 2019",
           image: "",
           logo: "",
-          link: "https://2016.mscc.mu/",
-          description:
-            "After last year's success the Mauritius Software Craftsmanship Community (MSCC) is organising the next annual event in partnership with a number of local and international companies. Although the MSCC was founded back in 2013 it quickly became clear that our tropical island has a certain lack of informational and technical events. During some monthly meetups we spoke about this situation and that it would be very interesting and delightful to organise such an event."
+          link: "",
+            description:
+            "Qualification dans developement website et bon maitrise dans language vue.js et javascript. avoy to cv lor nu page www.example.com ou passe dans nu bureau"
         },
-        {
-          title: "Xamarin Dev Days",
-          year: "2016",
-          date: "23 - 25 April 2015",
-          image: "",
-          logo: "",
-          link:
-            "https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/events/233937043/",
-          description:
-            "Xamarin Dev Days provide attendees with an intense, hands-on learning experience. Spend the morning exploring mobile development with sessions from Xamarin, our technology partners, and members of your local developer community, then roll up your sleeves for an afternoon dedicated to diving into code."
-        },
-        {
-          title: "DEVELOPERS CONFERENCE 2017",
-          year: "2017",
-          date: "23 - 25 April 2015",
-          image: "",
-          logo: "",
-          link: "https://2017.mscc.mu/",
-          description:
-            "After the success of previous years the Mauritius Software Craftsmanship Community (MSCC) is organising the third edition of the Developers Conference in partnership with a number of local and international companies. Although the MSCC was founded back in 2013 it quickly became clear that our tropical island has a certain lack of informational and technical events. During some monthly meetups we spoke about this situation and that it would be very interesting and delightful to organise such an event."
-        },
-        {
-          title: "DEVELOPERS CONFERENCE 2018",
-          year: "2018",
-          date: "23 - 25 April 2015",
-          image: "",
-          logo: "",
-          link: "https://2018.mscc.mu/",
-          description:
-            "After the success of previous years the Mauritius Software Craftsmanship Community (MSCC) is organising the fourth edition of the Developers Conference in partnership with a number of local and international companies. Although the MSCC was founded back in 2013 it quickly became clear that our tropical island has a certain lack of informational and technical events. During some monthly meetups we spoke about this situation and that it would be very interesting and delightful to organise such an event."
-        }
+      
       ]
     };
   }
@@ -194,7 +175,7 @@ $timeline-container-width:100%;
     }
   }
   &-item {
-    padding: 40px 0;
+    // padding: 40px 0;
     // opacity: .3;
     opacity: 1;
 
