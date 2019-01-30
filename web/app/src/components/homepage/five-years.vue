@@ -15,7 +15,7 @@
             <figure class="imghvr-shutter-in-out-diag-2"><img src="../../assets/WEBCUP/DEPARTMENTS/IT1.jpg"
                 alt="example-image">
               <figcaption>
-                <h3>IT</h3>
+                <h3 class="dept-name-txt">IT</h3>
               </figcaption>
             </figure>
           </router-link>
@@ -29,7 +29,7 @@
             <figure class="imghvr-shutter-in-out-diag-2"><img src="../../assets/WEBCUP/DEPARTMENTS/ENGINEERING3.jpg"
                 alt="example-image">
               <figcaption>
-                <h3>ENGINEERING</h3>
+                <h3 class="dept-name-txt">ENGINEERING</h3>
               </figcaption>
             </figure>
           </div>
@@ -42,7 +42,7 @@
             <figure class="imghvr-shutter-in-out-diag-2"><img src="../../assets/WEBCUP/DEPARTMENTS/AGRICULTURE1.jpg"
                 alt="example-image">
               <figcaption>
-                <h3>AGRICULTURE</h3>
+                <h3 class="dept-name-txt">AGRICULTURE</h3>
               </figcaption>
             </figure>
           </div>
@@ -55,7 +55,7 @@
             <figure class="imghvr-shutter-in-out-diag-2"><img src="../../assets/WEBCUP/DEPARTMENTS/SCIENCE1.jpg"
                 alt="example-image">
               <figcaption>
-                <h3>SCIENCE</h3>
+                <h3 class="dept-name-txt">SCIENCE</h3>
               </figcaption>
             </figure>
           </div>
@@ -75,7 +75,7 @@
             <figure class="imghvr-shutter-in-out-diag-2"><img src="../../assets/WEBCUP/DEPARTMENTS/MANAGEMENT1.jpg"
                 alt="example-image">
               <figcaption>
-                <h3>MANAGEMENT</h3>
+                <h3 class="dept-name-txt">MANAGEMENT</h3>
               </figcaption>
             </figure>
           </div>
@@ -89,7 +89,7 @@
             <figure class="imghvr-shutter-in-out-diag-2"><img src="../../assets/WEBCUP/DEPARTMENTS/HUMANITIES2.jpg"
                 alt="example-image">
               <figcaption>
-                <h3>HUMANITIES AND SOCIAL STUDIES</h3>
+                <h3 class="dept-name-txt" >HUMANITIES AND SOCIAL STUDIES</h3>
               </figcaption>
             </figure>
           </div>
@@ -104,7 +104,7 @@
             <figure class="imghvr-shutter-in-out-diag-2"><img src="../../assets/WEBCUP/DEPARTMENTS/FINANCE3.jpg"
                 alt="example-image">
               <figcaption>
-                <h3>FINANCE</h3>
+                <h3 class="dept-name-txt">FINANCE</h3>
               </figcaption>
             </figure>
           </div>
@@ -117,7 +117,7 @@
             <figure class="imghvr-shutter-in-out-diag-2"><img src="../../assets/WEBCUP/DEPARTMENTS/OCEAN1.jpg"
                 alt="example-image">
               <figcaption>
-                <h3>OCEAN</h3>
+                <h3 class="dept-name-txt">OCEAN</h3>
               </figcaption>
             </figure>
           </div>
@@ -133,7 +133,9 @@
 <style lang="scss" scoped>
   @import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
 
-
+  .dept-name-txt {
+    font-size: 20px
+  }
   .effects {
     margin: 3em auto 5em;
     max-width: 980px;

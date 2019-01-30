@@ -7,100 +7,90 @@
       <div class="university-listing">
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img src="../../assets/WEBCUP/LOGOS/ABR.jpg" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/ABR.jpg" alt="">
           </div>
           <h3 class="uni-name">Aberyswyth University</h3>
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img src="../../assets/WEBCUP/LOGOS/AMCRC.jpg" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/AMCRC.jpg" alt="">
           </div>
           <h3 class="uni-name">Anna Medical College</h3>
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img src="../../assets/WEBCUP/LOGOS/CTI.png" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/CTI.png" alt="">
           </div>
           <h3 class="uni-name">Charles Telfair Institute</h3>
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img src="../../assets/WEBCUP/LOGOS/CURTIN.jpg" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/CURTIN.jpg" alt="">
           </div>
           <h3 class="uni-name">Curtin University</h3>
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img src="../../assets/WEBCUP/LOGOS/DLC.jpg" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/DLC.jpg" alt="">
           </div>
           <h3 class="uni-name">Datamatics Learning Center</h3>
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img src="../../assets/WEBCUP/LOGOS/EBS.png" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/EBS.png" alt="">
           </div>
           <h3 class="uni-name">Elite Business School</h3>
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img src="../../assets/WEBCUP/LOGOS/GREEN.jpg" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/GREEN.jpg" alt="">
           </div>
           <h3 class="uni-name">Greenwich University</h3>
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img src="../../assets/WEBCUP/LOGOS/LCA.jpg" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/LCA.jpg" alt="">
           </div>
-          <h3 class="uni-name">London College Of Accountancy</h3>
+          <h3 class="uni-name">London College Of Accountancy testing</h3>
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img src="../../assets/WEBCUP/LOGOS/MIDDLESEX.png" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/MIDDLESEX.png" alt="">
           </div>
           <h3 class="uni-name">Middlesex University</h3>
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img src="../../assets/WEBCUP/LOGOS/MIE.jpg" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/MIE.jpg" alt="">
           </div>
           <h3 class="uni-name">Mauritius Examination Institute</h3>
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img src="../../assets/WEBCUP/LOGOS/OUM.jpg" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/OUM.jpg" alt="">
           </div>
           <h3 class="uni-name">Open University</h3>
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img src="../../assets/WEBCUP/LOGOS/RBS2.jpg" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/RBS2.jpg" alt="">
           </div>
           <h3 class="uni-name">Rushmore Business School</h3>
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img src="../../assets/WEBCUP/LOGOS/UOM.png" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/UOM.png" alt="">
           </div>
           <h3 class="uni-name">University Of Mauritius</h3>
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img src="../../assets/WEBCUP/LOGOS/UTM.png" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/UTM.png" alt="">
           </div>
           <h3 class="uni-name">University Technology Mauritius</h3>
         </div>
-        <div class="uni-wrapper">
-          <div class="uni-logo">
-          <img src="../../assets/menu-hover.svg" alt="">
-          </div>
-          <h3 class="uni-name">Testing - Name</h3>
-        </div>
-        <div class="uni-wrapper">
-          <div class="uni-logo">
-          <img src="../../assets/menu-hover.svg" alt="">
-          </div>
-          <h3 class="uni-name">Testing - Name</h3>
-        </div>
+        
+        
       </div>
     </div>
   </div>
@@ -124,8 +114,15 @@
   // }
 // };
 </script>
+<style lang="scss" scoped> 
+.uni-logo-pic {
+  width: 150px
+} 
 
-<style lang="scss" scoped>
+.uni-name {
+  font-size: 20px;
+}
+
 .devcon-stats-wrapper {
   padding: 100px 0;
   margin-top: 40px;
