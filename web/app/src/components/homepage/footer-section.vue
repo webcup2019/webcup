@@ -2,7 +2,7 @@
   <div class="home-component footer-section-wrapper">
     <div class="container footer-section-container">
       <div class="link-wrapper">
-        <router-link class="link" :to="{ name: 'pastevents' }">past events</router-link>
+        <router-link class="link" :to="{ name: 'pastevents' }">Travail</router-link>
 
         <router-link class="link" :to="{ name: 'sponsors' }">sponsors</router-link>
 
@@ -25,7 +25,7 @@
         <a class="link external" target="_blank" rel="noopener noreferrer" href="https://www.mscc.mu/code-of-conduct">code
           of conduct</a>
 
-        <router-link class="link" :to="{ name: 'jobs' }">jobs</router-link>
+        <router-link class="link" :to="{ name: 'jobs' }">Vey Profile</router-link>
 
         <router-link class="link" :to="{ name: 'vote' }">vote</router-link>
       </div>

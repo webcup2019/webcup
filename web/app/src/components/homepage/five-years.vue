@@ -611,13 +611,15 @@
   .dept-list {
     width: 100%;
     // background-color: red;  
-    height: 105vh;
+    // height: 105vh;
+    margin-top: 20px;
 
     .dept-wrapper {
       display: grid;
       width: 100%;
       grid-gap: 40px;
       padding: 75px 0;
+      margin-top: 30px;
     }
 
     .dept-list-top {
