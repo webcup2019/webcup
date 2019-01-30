@@ -97,10 +97,11 @@ body {
     z-index: -1;
 
     display: block;
-    background: no-repeat right top/auto 70%
-        url("../src/assets/bg/bg-blue-light.svg"),
-      no-repeat left top/auto 80% url("../src/assets/bg/bg-red.svg"),
-      no-repeat center center/contain url("/img/bg/team2018.jpg");
+   // background: no-repeat right top/auto 70%
+     //   url("../src/assets/bg/bg-blue-light.svg"),
+     // no-repeat left top/auto 80% url("../src/assets/bg/bg-red.svg"),
+     // no-repeat center center/contain url("/img/bg/team2018.jpg"); 
+    //  background: no-repeat center center/contain url("/img/bg/sucess.jpg");
     width: 100%;
     height: 100%;
 

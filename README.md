@@ -1,5 +1,8 @@
-# [Developers Conference 2019](https://conference.mscc.mu/)
+# webcup
+webcup 2019 git
+testing  
 
+<<<<<<< HEAD
 Website of Developers Conference 2019 in Mauritius  
 https://conference.mscc.mu/  
 
@@ -34,3 +37,6 @@ $ npm run serve // devmode with livereload
 
 1. Install the dependencies `$ npm install --save express cors nodemon`
 2. Run server.js `$ node server.js`
+=======
+hello
+>>>>>>> 96ba73d96f37ed578bca132f1aaf69a753e06669

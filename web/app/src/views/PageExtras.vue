@@ -1,31 +1,17 @@
 <template>
   <div class="container">
-    <h1 class="mega-rainbow">Extra Activities</h1>
+    <h1 class="mega-rainbow">News Feed</h1>
 
-    <extra-community></extra-community>
-    <extra-gdg></extra-gdg>
-    <!-- <extra-lugm></extra-lugm> -->
-    <!-- <extra-maker></extra-maker> -->
-    <!-- <extra-symfony></extra-symfony> -->
-    <sponsorship></sponsorship>
+    <div class="news-feed-container">
+
+      <!-- edit here -->
+    </div>
   </div>
 </template>
 
 <script>
-import extraGdg from "@/components/extras/extra-gdg.vue";
-import extraLugm from "@/components/extras/extra-lugm.vue";
-import extraMaker from "@/components/extras/extra-maker.vue";
-import extraCommunity from "@/components/extras/extra-community.vue";
-import sponsorship from "@/components/extras/sponsorship.vue";
-
 export default {
-  components: {
-    extraGdg,
-    extraLugm,
-    extraMaker,
-    extraCommunity,
-    sponsorship
-  }
+
 };
 </script>
 
@@ -41,6 +27,14 @@ export default {
   .container {
     grid-column: container;
     padding: calc(var(--gutter) * 2) calc(var(--gutter) / 2);
+  } 
+
+//  do not touch above
+  .new-feed-container {
+
+
+
+
   }
 }
 </style>

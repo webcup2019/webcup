@@ -3,7 +3,7 @@
     <IntroSlider />
     <FiveYears />
     <DevconStats />
-    <FeaturedSpeakers />
+    <!-- <FeaturedSpeakers /> -->
     <BecomeSpeaker />
     <SponsorSection />
   </div>

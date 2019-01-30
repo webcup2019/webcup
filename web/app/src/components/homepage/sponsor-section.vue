@@ -3,91 +3,24 @@
     <div class="container">
       <h2 class="mega-rainbow">Sponsors</h2>
       <div class="sponsor-level-wrapper titanium">
-        <h4 class="subtitle">Titanium</h4>
         <div class="sponsors-wrapper platinum-wrapper">
+
+          <a href="#" class="sponsor-logo">
+            <img src="../../assets/sample-sponsors/mcb.png" alt>
+          </a> 
+
+          <a href="#" class="sponsor-logo">
+            <img src="../../assets/sample-sponsors/mcb.png" alt>
+          </a>
+          <a href="#" class="sponsor-logo">
+            <img src="../../assets/sample-sponsors/mcb.png" alt>
+          </a>
           <a href="#" class="sponsor-logo">
             <img src="../../assets/sample-sponsors/mcb.png" alt>
           </a>
         </div>
       </div>
-      <div class="sponsor-level-wrapper platinum">
-        <h4 class="subtitle">Platinum</h4>
-        <div class="sponsors-wrapper platinum-wrapper">
-          <a href="#" class="sponsor-logo">
-            <img src="../../assets/sample-sponsors/sdworx.png" alt>
-          </a>
-        </div>
-      </div>
-
-      <div class="sponsor-level-wrapper gold">
-        <h4 class="subtitle">Gold</h4>
-        <div class="sponsors-wrapper gold-wrapper">
-          <a href="#" class="sponsor-logo">
-            <img src="../../assets/sample-sponsors/sdworx.png" alt>
-          </a>
-        </div>
-      </div>
-
-      <div class="sponsor-level-wrapper speaker">
-        <h4 class="subtitle">Speaker Sponsor</h4>
-        <div class="sponsors-wrapper medium-wrapper">
-          <a href="#" class="sponsor-logo">
-            <img src="../../assets/sample-sponsors/sdworx.png" alt>
-          </a>
-        </div>
-      </div>
-      <div class="sponsor-level-wrapper silver">
-        <h4 class="subtitle">Silver</h4>
-        <div class="sponsors-wrapper medium-wrapper">
-          <a href="#" class="sponsor-logo">
-            <img src="../../assets/sample-sponsors/sdworx.png" alt>
-          </a>
-        </div>
-      </div>
-      <div class="sponsor-level-wrapper bronze">
-        <h4 class="subtitle">Bronze</h4>
-        <div class="sponsors-wrapper small-wrapper">
-          <a href="#" class="sponsor-logo">
-            <img src="../../assets/sample-sponsors/sdworx.png" alt>
-          </a>
-          
-          <a href="#" class="sponsor-logo">
-            <img src="../../assets/sample-sponsors/sdworx.png" alt>
-          </a>
-          
-          <a href="#" class="sponsor-logo">
-            <img src="../../assets/sample-sponsors/sdworx.png" alt>
-          </a>
-          
-          <a href="#" class="sponsor-logo">
-            <img src="../../assets/sample-sponsors/sdworx.png" alt>
-          </a>
-        </div>
-      </div>
-      <div class="sponsor-level-wrapper media">
-        <h4 class="subtitle">Media Partner</h4>
-        <div class="sponsors-wrapper small-wrapper">
-          <a href="#" class="sponsor-logo">
-            <img src="../../assets/sample-sponsors/sdworx.png" alt>
-          </a>
-        </div>
-      </div>
-      <div class="sponsor-level-wrapper happy">
-        <h4 class="subtitle">Happy Hour</h4>
-        <div class="sponsors-wrapper small-wrapper">
-          <a href="#" class="sponsor-logo">
-            <img src="../../assets/sample-sponsors/sdworx.png" alt>
-          </a>
-          
-          <a href="#" class="sponsor-logo">
-            <img src="../../assets/sample-sponsors/sdworx.png" alt>
-          </a>
-          
-          <a href="#" class="sponsor-logo">
-            <img src="../../assets/sample-sponsors/sdworx.png" alt>
-          </a>
-        </div>
-      </div>
+      
 
       <div class="tribute-text">
         Reach out and engage with a community of IT professionals and students in IT.<br/>
@@ -97,38 +30,8 @@
         wide variety of skills that help make the lives of people easier
       </div>
     </div>
-
-    <div class="button-center">
-      <button-waw
-        :theme="'#97d0e1'"
-        :size="'70px'"
-        :link="'https://github.com/mscraftsman/devcon2019/raw/master/assets/DevCon2019-SponsorshipProposal.pdf'"
-      >
-        Become
-        a Sponsor
-      </button-waw>
-    </div>
   </div>
 </template>
-<script>
-import { mapGetters, mapActions } from "vuex";
-
-import { FETCH_SPONSORS } from "@/store";
-
-export default {
-  created() {
-    this.FETCH_SPONSORS();
-  },
-
-  computed: {
-    ...mapGetters(["getSponsors"])
-  },
-
-  methods: {
-    ...mapActions([FETCH_SPONSORS])
-  }
-};
-</script>
 
 
 <style lang="scss" scoped>
