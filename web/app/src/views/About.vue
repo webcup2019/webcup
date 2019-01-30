@@ -18,8 +18,7 @@ import axios from 'axios';
 			}
 		},
 		mounted() {
-			axios.post("http://localhost:4000/post", 
-			    {name:"wa"})
+			axios.get("http://localhost:4000")
 			.then((response) => {
 				console.log(response.data);
 				this.student = response.data;
