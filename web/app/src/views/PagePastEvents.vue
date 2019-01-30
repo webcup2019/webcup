@@ -9,7 +9,7 @@
         <div class="timeline-item" data-text="FATHER OF THE TURKS" v-for="(event, index) in past_events" :key="index">
           <div class="timeline__content">
           <h2>{{ event.title }}</h2>
-            <img class="timeline__img" src="https://2018.mscc.mu/images/past-events/gwab2015.jpeg" />
+            <img class="timeline__img" src="../assets/WEBCUP/LOGOS/AD.png" />
             <h2 class="timeline__content-title">{{ event.year }}</h2>
             <p class="timeline__content-desc">{{ event.description }}</p>
              <!-- <a :href="event.link" class="cd-read-more">More Information</a> -->

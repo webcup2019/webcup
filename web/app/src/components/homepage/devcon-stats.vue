@@ -7,13 +7,13 @@
       <div class="university-listing">
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/ABR.jpg" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/ABR.png" alt="">
           </div>
           <h3 class="uni-name">Aberyswyth University</h3>
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/AMCRC.jpg" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/AMCRC.png" alt="">
           </div>
           <h3 class="uni-name">Anna Medical College</h3>
         </div>
@@ -25,13 +25,13 @@
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/CURTIN.jpg" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/CURTIN.png" alt="">
           </div>
           <h3 class="uni-name">Curtin University</h3>
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/DLC.jpg" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/DLC.png" alt="">
           </div>
           <h3 class="uni-name">Datamatics Learning Center</h3>
         </div>
@@ -43,13 +43,13 @@
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/GREEN.jpg" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/GREEN.png" alt="">
           </div>
           <h3 class="uni-name">Greenwich University</h3>
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/LCA.jpg" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/LCA.png" alt="">
           </div>
           <h3 class="uni-name">London College Of Accountancy testing</h3>
         </div>
@@ -61,19 +61,19 @@
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/MIE.jpg" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/MIE.png" alt="">
           </div>
           <h3 class="uni-name">Mauritius Examination Institute</h3>
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/OUM.jpg" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/OUM.png" alt="">
           </div>
           <h3 class="uni-name">Open University</h3>
         </div>
         <div class="uni-wrapper">
           <div class="uni-logo">
-          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/RBS2.jpg" alt="">
+          <img class="uni-logo-pic" src="../../assets/WEBCUP/LOGOS/RBS2.png" alt="">
           </div>
           <h3 class="uni-name">Rushmore Business School</h3>
         </div>
