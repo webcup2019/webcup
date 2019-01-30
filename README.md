@@ -17,3 +17,20 @@ $ cd /web/app
 $ npm install
 $ npm run serve // devmode with livereload
 ```
+
+
+
+# Setting up Oracle Database
+
+1. Install node-oracledb using the npm `$ npm install oracledb`
+2. Extract instantclient-basic-windows.x64-18.3.0.0.0dbru.zip
+	Add its directory to PATH. For example on Windows 10, update PATH in Control Panel -> System And Security -> Syste, -> Advanced System Settings -> Advanced -> Environment Variables -> System variables -> PATH and add your path, such as C:\oracle\instantclient_18_3.
+
+3. Run test.js `$ node test.js`
+
+
+
+# Setting up Expressjs
+
+1. Install the dependencies `$ npm install --save express cors nodemon`
+2. Run server.js `$ node server.js`
