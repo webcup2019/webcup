@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="mega-rainbow">Sessions</h1>
+    <h1 class="mega-rainbow">Inter-Uni Demo</h1>
     <div class="page-all-sessions">
       <div class="tabs-container">
         <div class="right-wrapper">
