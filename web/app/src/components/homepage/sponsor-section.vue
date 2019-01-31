@@ -6,28 +6,47 @@
         <div class="sponsors-wrapper platinum-wrapper">
 
           <a href="#" class="sponsor-logo">
-            <img src="../../assets/sample-sponsors/mcb.png" alt>
+            <h2>Elite Business School</h2>
           </a> 
 
           <a href="#" class="sponsor-logo">
-            <img src="../../assets/sample-sponsors/mcb.png" alt>
+            <h2>Oracle</h2>
           </a>
           <a href="#" class="sponsor-logo">
-            <img src="../../assets/sample-sponsors/mcb.png" alt>
+            <h2>Fashion Corner</h2>
           </a>
           <a href="#" class="sponsor-logo">
-            <img src="../../assets/sample-sponsors/mcb.png" alt>
+            <h2>Teamonite</h2>
           </a>
+             <a href="#" class="sponsor-logo">
+            <h2>Blink</h2>
+          </a>
+          <a href="#" class="sponsor-logo">
+            <h2>Hackers.mu</h2>
+          </a>
+          <a href="#" class="sponsor-logo">
+            <h2>ItSolvz</h2>
+            </a>
+             <a href="#" class="sponsor-logo">
+            <h2>Oracle Club UOM</h2>
+          </a>
+          <a href="#" class="sponsor-logo">
+            <h2>Uom Computer Club</h2>
+          </a>
+          <a href="#" class="sponsor-logo">
+            <h2>Student Union</h2>
+            </a>
+             <a href="#" class="sponsor-logo">
+            <h2>HP</h2>
+            </a>
         </div>
       </div>
       
 
       <div class="tribute-text">
-        Reach out and engage with a community of IT professionals and students in IT.<br/>
-        Sponsors of the Developers Conference are exposed to skilled tech
-        people in Mauritius and in the region. Unlike other events, participants of
-        the Developers Conference are generally people who craft software using a
-        wide variety of skills that help make the lives of people easier
+        Reach out and engage with a community of students from all departments<br/>
+        Our website will give you access to all university and learning center students in Mauritius
+        and the opportunity to contact them and reach for help or even for job ooportunities.
       </div>
     </div>
   </div>
