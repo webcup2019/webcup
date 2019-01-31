@@ -4,7 +4,7 @@
     <FiveYears />
     <DevconStats />
     <!-- <FeaturedSpeakers /> -->
-    <BecomeSpeaker />
+    <!-- <BecomeSpeaker /> -->
     <SponsorSection />
   </div>
 </template>

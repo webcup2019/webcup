@@ -1,7 +1,7 @@
 <template>
   <div class="logo-wrapper">
     <router-link :to="{name:'home'}">
-      <img src="@/assets/logo2.jpg" alt>
+      <img src="../../assets/WEBCUP/LOGOS/LOGOR.png" alt>
     </router-link>
   </div>
 </template>
