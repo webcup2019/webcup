@@ -2,7 +2,7 @@
   <div class="student-card component">
 
     
-    <div class="card">
+    <div class="card" v-for="item in student">
       <div class="card-header" style="background-image: url(https://res.cloudinary.com/dj14cmwoz/image/upload/v1491077482/profile-card/images/profile-picture.png)">
         <div class="card-header-bar">
           <a href="#" class="btn-message"><span class="sr-only">Message</span></a>
@@ -17,9 +17,9 @@
       </div>
 
       <div class="card-body">
-        <h2 class="name">John Smith</h2>
-        <h4 class="job-title">Product Designer</h4>
-        <div class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, aperiam.</div>
+        <h2 class="name">{{item.FIRSTNAME}}</h2>
+        <h4 class="job-title">{{item.SURNAME}}</h4>
+        <div class="bio">{{item.DESCRIPTION}}</div>
         <div class="social-accounts">
           <a href="#"><img src="https://res.cloudinary.com/dj14cmwoz/image/upload/v1491077480/profile-card/images/dribbble.svg"
               alt=""><span class="sr-only">Dribbble</span></a>
@@ -281,7 +281,28 @@
   </div>
 
 </template>
+<script>
+import axios from 'axios';
 
+  export default {
+    name: 'hello',
+    data() {
+      return {
+        student: {},
+      }
+    },
+    mounted() {
+      axios.get("http://localhost:4000")
+      .then((response) => {
+        console.log(response.data);
+        this.student = response.data;
+      })
+      .catch((error) => {
+        console.log(error);
+      })
+    }
+  };
+</script>
 <style lang="scss" scoped>
 @import url(https://fonts.googleapis.com/css?family=Exo+2:300,400,700);
 body{
