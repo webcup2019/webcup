@@ -9,11 +9,11 @@
           <div class="frame">
             <div>
               <div class="headline">
-                <div>Testing</div>
+                <div>User Statistics</div>
               </div>
               <div class="circle-big">
                 <div class="text">
-                  2758<div class="small">kcal</div>
+                  2758<div class="small">Students</div>
                 </div>
                 <svg>
                   <circle class="bg" cx="57" cy="57" r="52"></circle>
@@ -22,14 +22,14 @@
               </div>
               <div class="circles-small">
                 <div class="circle-small">
-                  <div class="text">8563<br /><span class="small">steps</span></div>
+                  <div class="text">15<br /><p class="small">Number Of Universities</p></div>
                   <svg>
                     <circle class="bg" cx="40" cy="40" r="37"></circle>
                     <circle class="progress one" cx="40" cy="40" r="37"></circle>
                   </svg>
                 </div>
                 <div class="circle-small">
-                  <div class="text">6,2<br /><span class="small">km</span>
+                  <div class="text">15,055<br /><p class="small">Website Visit Per Day</p>
                   </div>
                   <svg>
                     <circle class="bg" cx="40" cy="40" r="37"></circle>
